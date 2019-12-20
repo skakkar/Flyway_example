@@ -1,0 +1,23 @@
+#ignore devstudio files
+.project
+.settings
+.factorypath
+.classpath
+.idea
+
+.DS_Store
+src/main/java/
+.idea/
+
+# ignore built files
+target/
+.mvn
+mvnw*
+
+
+# ignore local testing files
+/test/logs/
+/test/myTestDB/
+*.iml
+*.log
+*.DS_Store
